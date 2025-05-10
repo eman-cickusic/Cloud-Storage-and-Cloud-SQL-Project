@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- Cloud outline -->
+  <path d="M50,50 L750,50 L750,450 L50,450 Z" fill="none" stroke="#4285f4" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="400" y="30" font-family="Arial" font-size="20" text-anchor="middle" fill="#4285f4">Google Cloud Platform</text>
+  
+  <!-- VM Instance -->
+  <rect x="120" y="150" width="160" height="200" rx="10" fill="#ffffff" stroke="#4285f4" stroke-width="2" />
+  <text x="200" y="130" font-family="Arial" font-size="16" text-anchor="middle" fill="#4285f4">Compute Engine</text>
+  <rect x="140" y="180" width="120" height="30" rx="5" fill="#4285f4" />
+  <text x="200" y="200" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">Apache</text>
+  <rect x="140" y="230" width="120" height="30" rx="5" fill="#4285f4" />
+  <text x="200" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">PHP</text>
+  <rect x="140" y="280" width="120" height="30" rx="5" fill="#4285f4" />
+  <text x="200" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">index.php</text>
+  <text x="200" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#4285f4">VM: bloghost</text>
+  
+  <!-- Cloud SQL -->
+  <rect x="520" y="150" width="160" height="200" rx="10" fill="#ffffff" stroke="#ea4335" stroke-width="2" />
+  <text x="600" y="130" font-family="Arial" font-size="16" text-anchor="middle" fill="#ea4335">Cloud SQL</text>
+  <circle cx="600" cy="220" r="50" fill="#ea4335" />
+  <text x="600" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">MySQL</text>
+  <text x="600" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#ea4335">Instance: blog-db</text>
+  <text x="600" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#ea4335">User: blogdbuser</text>
+  
+  <!-- Cloud Storage -->
+  <rect x="320" y="380" width="160" height="120" rx="10" fill="#ffffff" stroke="#34a853" stroke-width="2" />
+  <text x="400" y="360" font-family="Arial" font-size="16" text-anchor="middle" fill="#34a853">Cloud Storage</text>
+  <rect x="350" y="400" width="100" height="70" rx="5" fill="#34a853" />
+  <text x="400" y="435" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">my-excellent-blog.png</text>
+  <text x="400" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#34a853">Bucket: [PROJECT_ID]</text>
+  
+  <!-- Connections -->
+  <line x1="280" y1="250" x2="520" y2="250" stroke="#ea4335" stroke-width="2" />
+  <text x="400" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#ea4335">SQL Connection</text>
+  <line x1="200" y1="350" x2="350" y2="430" stroke="#34a853" stroke-width="2" />
+  <text x="250" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#34a853">Image Reference</text>
+  
+  <!-- Users -->
+  <circle cx="40" cy="250" r="20" fill="#fbbc05" />
+  <text x="40" y="255" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff">👤</text>
+  <line x1="60" y1="250" x2="120" y2="250" stroke="#fbbc05" stroke-width="2" />
+  <text x="90" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#fbbc05">HTTP</text>
+</svg>
